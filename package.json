@@ -12,10 +12,10 @@
 	},
 	"devDependencies": {
 		"bun-types": "1.0.2",
-		"elysia": "0.6.24"
+		"elysia": "0.7.0"
 	},
 	"peerDependencies": {
-		"typescript": "5.0.0",
-		"elysia": "0.6.24"
+		"typescript": "5.2.2",
+		"elysia": "0.7.0"
 	}
 }

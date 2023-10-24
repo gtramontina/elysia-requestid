@@ -1,6 +1,6 @@
+import { expect, it } from "bun:test";
 import Elysia from "elysia";
 import { requestID } from "./index.ts";
-import { expect, it } from "bun:test";
 
 it("sets a new request ID header when one isn't set", async () => {
 	const response = await new Elysia()

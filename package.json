@@ -1,7 +1,7 @@
 {
 	"name": "elysia-requestid",
 	"description": "Elysia Request ID Plugin",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"license": "MIT",
 	"module": "index.ts",
 	"files": ["index.ts"],
@@ -12,10 +12,10 @@
 	},
 	"devDependencies": {
 		"bun-types": "1.0.7",
-		"elysia": "0.7.18"
+		"elysia": "0.7.21"
 	},
 	"peerDependencies": {
 		"typescript": "5.2.2",
-		"elysia": "0.7.18"
+		"elysia": "0.7.21"
 	}
 }

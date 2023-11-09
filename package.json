@@ -11,7 +11,7 @@
 		"lint:fix": "bun x @biomejs/biome check --apply-unsafe . *.json"
 	},
 	"devDependencies": {
-		"bun-types": "1.0.10",
+		"bun-types": "1.0.11",
 		"elysia": "0.7.21"
 	},
 	"peerDependencies": {

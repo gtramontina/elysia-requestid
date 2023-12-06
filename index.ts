@@ -11,7 +11,7 @@ export const requestID = ({
 	uuid = randomUUID,
 	header = "X-Request-ID",
 }: Readonly<Options> = {}) => {
-	return new Elysia({ name: "request-id" })
+	return new Elysia({ name: "request-id", seed: header })
 		.on("request", ({ set, request: { headers } }) => {
 			set.headers[header] = headers.get(header) || uuid();
 		})
